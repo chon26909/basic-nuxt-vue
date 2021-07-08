@@ -5,12 +5,13 @@
           <input type="text" name="" id="">
           <input type="submit" name="" id="">
       </form>
+      <nuxt-child />
   </div>
 </template>
 
 <script>
 export default {
-
+    layout: "coreLayout"
 }
 </script>
 
